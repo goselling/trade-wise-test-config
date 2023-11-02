@@ -25,7 +25,7 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: http://localhost:8761/eureka
+      defaultZone: http://8.222.225.41:8761/eureka
 keycloak:
   realm: go-selling-api
   resource: go-selling
@@ -42,7 +42,7 @@ openapi:
   service:
     title: post-service
     version: 1.0.0
-    url: http://localhost:8080
+    url: http://8.222.225.41:8080
 
 springdoc:
   api-docs:

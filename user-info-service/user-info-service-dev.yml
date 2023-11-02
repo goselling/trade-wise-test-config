@@ -43,7 +43,7 @@ openapi:
   service:
     title: user-info-service
     version: 1.0.0
-    url: http://localhost:8080
+    url: http://8.222.225.41:8080
 
 springdoc:
   api-docs:
